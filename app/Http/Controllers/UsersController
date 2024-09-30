@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Http\Controllers;
+
+class UserController extends Controller
+{
+    /**
+     * @SWG\Get(
+     *     path="/users",
+     *     summary="Get a list of users",
+     *     tags={"Users"},
+     *     @SWG\Response(response=200, description="Successful operation"),
+     *     @SWG\Response(response=400, description="Invalid request")
+     * )
+     */
+    public function index()
+    {
+        // Your API logic here
+    }
+}
