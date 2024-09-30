@@ -1,0 +1,20 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API",
+        "version": "0.1"
+    },
+    "paths": {
+        "/api": {},
+        "/api/users": {
+            "get": {
+                "operationId": "c5ccc940808f87add4da9d1db1317605",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of users."
+                    }
+                }
+            }
+        }
+    }
+}
